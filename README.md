@@ -26,7 +26,8 @@
 
 
 ## 명령어 정리 ##
--
+-   
+
 #### git bash 명령어 ####
 
 명령어  | 설명
@@ -38,6 +39,7 @@ cd ..  | 현재 디렉토리에서 바로 상위 디렉토리로 이동
 cd -  | 바로 이전 디렉토리로 이동
 touch 파일명  | 파일 생성
 rm 파일명  | 파일 삭제
+   
 
 #### git의 자주쓰는 명령어 ####
 
@@ -66,17 +68,19 @@ git revert 0000000  | 복구하고자하는 커밋아이디로 복구 (파일을
 ## github 사용하기 ##
 
 <details>
-  <summary>git과 github 연동하기</summary>
+  <summary>git과 github 연동하기</summary>   
+   
   <p>1. github의 repositories탭에서 New를 선택하여 Create repository</p>
   <p>2. 화면에 나오는 git remote add origin 명령어와 url을 복사해서 bash창에 붙여넣기</p>
   <p>3. 팝업창의 sign in with your browser 클릭</p>
   <p>4. 옵션에서 전체 선택 후 authorize 버튼 클릭</p>
 </details>
 <details>
-  <summary>Title 2</summary>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+  <summary>github 사용하기</summary>   
+
+  <p>1. git push -u origin main 명령어를 입력하여 파일을 푸쉬 (main : 브랜치명)</p>
+  <p>2. git pull origin main 명령어를 입력하여 파일을 내려받기</p>
+  <p>3. git clone http://~ 내 저장소로 복사 (폴더를 만든경우 한칸띄고 마침표 . )</p>
+  <p>4. git remote rm origin 연결된 온라인 저장소 정보 삭제</p>
 </details>
-
-## github 란? ##
-
-    온라인 상에서 협업을 통해 버전 관리를 할 수 있게 해주는 대표적인 깃 호스팅 업체
+   
