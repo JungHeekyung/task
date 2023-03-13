@@ -66,7 +66,7 @@ git revert 0000000  | 복구하고자하는 커밋아이디로 복구 (파일을
 ## github 사용하기 ##
 
 <details>
-  <summary>*git과 github 연동하기*</summary>   
+  <summary>**git과 github 연동하기**</summary>   
    
   <p>1. github의 repositories탭에서 New를 선택하여 Create repository</p>
   <p>2. 화면에 나오는 git remote add origin 명령어와 url을 복사해서 bash창에 붙여넣기</p>
@@ -74,7 +74,7 @@ git revert 0000000  | 복구하고자하는 커밋아이디로 복구 (파일을
   <p>4. 옵션에서 전체 선택 후 authorize 버튼 클릭</p>
 </details>
 <details>
-  <summary>*github 사용하기*</summary>   
+  <summary>**github 사용하기**</summary>   
 
   <p>1. git push -u origin main 명령어를 입력하여 파일을 푸쉬 (main : 브랜치명)</p>
   <p>2. git pull origin main 명령어를 입력하여 파일을 내려받기</p>
